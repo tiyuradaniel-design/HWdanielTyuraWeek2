@@ -8,7 +8,7 @@ private:
 	std::string _Posts;
 public:
 	// constructor
-	Page();
+	void init();
 	// getters
 	std::string getPosts();
 	std::string getStatus();

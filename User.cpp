@@ -4,7 +4,7 @@
 #include "User.h"
 #include "DeviceList.h"
 
-class user
+class User
 {
 private:
 	std::string _username;
@@ -13,7 +13,7 @@ private:
 	DevicesList _DevicesList;
 public:
 	// constructor
-	user(std::string username, unsigned int id, unsigned int age) 
+	void init(unsigned int id, std::string username, unsigned int age)
 	{
 		this->_username = username;
 		this->_id = id;

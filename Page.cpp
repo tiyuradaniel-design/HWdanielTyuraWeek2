@@ -9,7 +9,7 @@ private:
 	std::string _Posts;
 public:
 	// constructor
-	Page() 
+	void init() 
 	{
 		this->_Status = "";
 		this->_Posts = "";
