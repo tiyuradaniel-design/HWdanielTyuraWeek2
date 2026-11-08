@@ -34,7 +34,7 @@ public:
 			friends += current->get_data().getUsername() + ",";
 			current = current->get_next();
 		}
-		return friends;
+		return friends.substr(0, friends.length()-1);
 	}
 	std::string getFrindsWithSameNameLength()
 	{

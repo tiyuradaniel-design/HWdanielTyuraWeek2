@@ -36,6 +36,9 @@
     <ClCompile Include="Profile.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="SocialNetwork.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="UserList.h">
@@ -57,6 +60,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Profile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocialNetwork.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
