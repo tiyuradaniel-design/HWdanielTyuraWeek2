@@ -1,0 +1,15 @@
+1.
+Reference is a name to the same place in memory as the variable that he references.
+2.
+The first bonus: is that the variable that we sended to func change same on the both sides,
+Second bonus: we don't create new variables and do not waste memory.
+3.
+Because by reference we dont use memory and cant do problems with memory.
+4.
+square(3, y); yes we send number to int and variable to reference
+square(3, &y);no you will send address and not the variable
+square(3, 6);no you cant reference to number
+5.
+int& getLocalVar(); the func returns reference of local variable
+int& getDynamicVar(); the func returns reference of variable pointer that make unclearable
+array
