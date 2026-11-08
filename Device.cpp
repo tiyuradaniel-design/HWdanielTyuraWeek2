@@ -23,48 +23,48 @@ enum DeviceType { PHONE, PC, LAPTOP, TABLET };		     //
 class Device
 {
 private:
-	unsigned int id;
-	DeviceType type;
-	std::string os;
-	bool active;
+	unsigned int _id;
+	DeviceType _type;
+	std::string _os;
+	bool _active;
 public:
 	// constructor
 	Device(unsigned int id, DeviceType type, std::string os) 
 	{
-		this->id = id;
-		this->type = type;
-		this->os = os;
-		this->active = true;
+		this->_id = id;
+		this->_type = type;
+		this->_os = os;
+		this->_active = true;
 	}
 
 	// getters
 
 	std::string getOS() 
 	{
-		return this->os;
+		return this->_os;
 	}
 	bool isActive() 
 	{
-		return this->active;
+		return this->_active;
 	}
 	unsigned int getID() 
 	{
-		return this->id;
+		return this->_id;
 	}
 	DeviceType getType() 
 	{
-		return this->type;
+		return this->_type;
 	}
 
 	// setters
 
 	void activate() 
 	{
-		this->active = true;
+		this->_active = true;
 	}
 	void deactivate() 
 	{
-		this->active = false;
+		this->_active = false;
 	}
 
 };
