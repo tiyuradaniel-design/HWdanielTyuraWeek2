@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="..\..\Downloads\DeviceList.cpp" />
     <ClCompile Include="Device.cpp" />
+    <ClCompile Include="Page.cpp" />
     <ClCompile Include="ProfileList.cpp" />
     <ClCompile Include="User.cpp" />
     <ClCompile Include="UserList.cpp" />
@@ -148,6 +149,7 @@
   <ItemGroup>
     <ClInclude Include="Device.h" />
     <ClInclude Include="DeviceList.h" />
+    <ClInclude Include="Page.h" />
     <ClInclude Include="ProfileList.h" />
     <ClInclude Include="User.h" />
     <ClInclude Include="UserList.h" />
